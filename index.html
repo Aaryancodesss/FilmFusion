@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexTrek | Premium Movie Discovery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Real Cursor Glow -->
+    <div class="cursor-glow"></div>
+    
+    <!-- Textures and Overlays -->
+    <div class="noise-overlay"></div>
+    <div class="vignette-overlay"></div>
+    <div class="bg-animated"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="logo">
+            <span class="logo-text">Film<span class="accent">Fusion</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="magnetic">Home</a></li>
+            <li><a href="#" class="magnetic">Movies</a></li>
+            <li><a href="#" class="magnetic">TV Shows</a></li>
+            <li><a href="#" class="magnetic">My List</a></li>
+        </ul>
+    </nav>
+
+    <!-- Search Section -->
+    <header class="search-section">
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search for movies, actors, or genres...">
+            <div class="search-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Movie Grid Section -->
+    <main>
+        <div class="section-title">
+            <h2>Trending Now</h2>
+        </div>
+        <div class="movie-grid" id="movieGrid">
+            <!-- Cards will be injected by script.js -->
+        </div>
+    </main>
+
+    <!-- Logic and Interactions -->
+    <script src="script.js"></script>
+</body>
+</html>
